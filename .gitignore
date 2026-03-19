@@ -1,0 +1,43 @@
+# ROS 2 ament-python build artifacts
+build/
+install/
+log/
+
+# Python compiled files
+__pycache__/
+*.pyc
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# Environment files
+.env
+
+# ROS 2 package specific
+# resource/*
+
+# Test related
+.coverage
+.coverage.*
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# ament specific
+ament_cmake_core
+ament_cmake
+
+# Catkin specific (if used)
+.catkin/
